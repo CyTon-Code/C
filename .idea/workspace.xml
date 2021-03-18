@@ -14,9 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ba8619-8175-4ca1-8b1e-f8efc783fffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +47,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunManager" selected="CMake Application.C">
@@ -91,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616100637866</updated>
-      <workItem from="1616100642344" duration="1069000" />
+      <workItem from="1616100642344" duration="2204000" />
     </task>
     <task id="LOCAL-00001" summary="add c11">
       <created>1616100718731</created>
@@ -114,7 +118,35 @@
       <option name="project" value="LOCAL" />
       <updated>1616101416912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add &amp; upd  c11">
+      <created>1616101782212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616101782212</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add &amp; upd  c11">
+      <created>1616101818632</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616101818632</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upd  codestream.xml">
+      <created>1616101899886</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616101899886</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upd  codestream.xml">
+      <created>1616101916316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616101916316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add c11" />
     <MESSAGE value="add &amp; upd  c11" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &amp; upd  c11" />
+    <MESSAGE value="upd  codestream.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd  codestream.xml" />
   </component>
 </project>
