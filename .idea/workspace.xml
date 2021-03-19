@@ -3,8 +3,10 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="C" targetName="C" />
+      <config projectName="C" targetName="library" />
       <config projectName="C" targetName="README" />
       <config projectName="C" targetName="CMakeLists" />
+      <config projectName="C" targetName="main" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,76 +16,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ba8619-8175-4ca1-8b1e-f8efc783fffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tmp/1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/1.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/1_.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/1_.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/1_lab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/1_lab.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/1_lab_cpp.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/2.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/2_lab_cpp.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/3_lab_cpp.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/4.cpp.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/4_cpp.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/4_lab_cpp.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/c_math.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/c_math.h.gch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/cmath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/cmath.h.gch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/tmp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/tmp.h.gch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_lab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_lab.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_lab_cpp.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_lab_cpp.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_lab_cpp.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.cpp.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_cpp.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lab_cpp.drawio" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bool/library.c" beforeDir="false" afterPath="$PROJECT_DIR$/bool/library.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bool/library.h" beforeDir="false" afterPath="$PROJECT_DIR$/bool/library.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c_math.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c_math.h.gch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/library.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmath.h.gch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.h.gch" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +67,7 @@
     <option name="directoryName" value="nhl32h8d" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
+    <option name="sortByName" value="true" />
   </component>
   <component name="ProjectId" id="1pwid0Ew1yU9NgngCtOr30jzCeU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,8 +110,30 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="library" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="library">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.CMakeLists" />
+      <item itemvalue="CMake Application.library" />
+      <item itemvalue="CMake Application.main" />
       <item itemvalue="CMake Application.C" />
       <item itemvalue="CMake Application.README" />
     </list>
@@ -179,6 +149,8 @@
       <workItem from="1616100642344" duration="2606000" />
       <workItem from="1616145872457" duration="2134000" />
       <workItem from="1616152126780" duration="1554000" />
+      <workItem from="1616153694872" duration="1113000" />
+      <workItem from="1616155423648" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="add c11">
       <created>1616100718731</created>
@@ -250,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616152200361</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="system commit">
+      <created>1616153739238</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616153739238</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +252,7 @@
     <MESSAGE value="add &amp; upd  c11" />
     <MESSAGE value="upd  codestream.xml" />
     <MESSAGE value="upd all" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd all" />
+    <MESSAGE value="system commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="system commit" />
   </component>
 </project>

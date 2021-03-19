@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/library.dir/bool/library.c.o  -o library 
+/usr/bin/cc -g   CMakeFiles/library.dir/line_search/library.c.o  -o library 

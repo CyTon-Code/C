@@ -2,6 +2,7 @@
 #define BOOL_LIBRARY_H
 
 #define bool(typ, var) convert_ ## typ ## _to_boolean_type(var)
+
 #define false  bool(char, 0)
 #define true  bool(char, 1)
 
@@ -24,6 +25,14 @@ typedef struct {
     char flag;
 //    int id;
 } boolean_type;
+
+void echo(boolean_type var) {
+    if (var.flag)
+        printf("true");
+    else
+        printf("false");
+
+}
 
 /*
  * функция преобразовывает число в bool
@@ -79,5 +88,8 @@ boolean_type convert_str_to_boolean_type(const char *_text) {
     return var;
 }
 
+boolean_type convert_bool_to_boolean_type(boolean_type var) {
+    return var;
+}
 
 #endif //BOOL_LIBRARY_H

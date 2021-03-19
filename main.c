@@ -4,9 +4,9 @@
 #include <stdio.h>
 
 #endif // stdio_h
-
+#include "main.h"
 #include "line_search/library.c"
-#include "bool/library.c"
+//#include "bool/library.c"
 
 
 struct List {
@@ -29,11 +29,13 @@ boolean_type check(void) {
         printf("NULL");
         return false;
     }
-    printf("> key[%d];\n%d", search, key);
+    printf("> key[%d];\n%d\n", search, key);
     return true;
 }
 
 int main() {
+    check();
+    bool(bool, false);
     convert_test();
     return 0;
 }
