@@ -23,8 +23,14 @@ stdio.h
 /run/media/cytoncode/GIT/C/main.c
 stdio.h
 -
+main.h
+/run/media/cytoncode/GIT/C/main.h
 line_search/library.c
 /run/media/cytoncode/GIT/C/line_search/library.c
 bool/library.c
 /run/media/cytoncode/GIT/C/bool/library.c
+
+/run/media/cytoncode/GIT/C/main.h
+stdbool.h
+-
 

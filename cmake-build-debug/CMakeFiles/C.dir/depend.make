@@ -5,4 +5,5 @@ CMakeFiles/C.dir/main.c.o: ../bool/library.c
 CMakeFiles/C.dir/main.c.o: ../line_search/library.c
 CMakeFiles/C.dir/main.c.o: ../line_search/library.h
 CMakeFiles/C.dir/main.c.o: ../main.c
+CMakeFiles/C.dir/main.c.o: ../main.h
 
