@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbool.a  CMakeFiles/bool.dir/library.c.o
+/usr/bin/ranlib libbool.a
