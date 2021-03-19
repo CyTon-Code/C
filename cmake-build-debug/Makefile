@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named stdio
+
+# Build rule for target.
+stdio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stdio
+.PHONY : stdio
+
+# fast build rule for target.
+stdio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdio.dir/build.make CMakeFiles/stdio.dir/build
+.PHONY : stdio/fast
+
+#=============================================================================
 # Target rules for targets named library
 
 # Build rule for target.
@@ -238,6 +251,7 @@ help:
 	@echo "... README"
 	@echo "... library"
 	@echo "... main"
+	@echo "... stdio"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

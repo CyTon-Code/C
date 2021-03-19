@@ -1,5 +1,7 @@
 /app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /run/media/cytoncode/GIT/C
 -- Configuring done
+CMake Error: Cannot determine link language for target "stdio".
+CMake Error: CMake can not determine linker language for target: stdio
 CMake Error: Cannot determine link language for target "library".
 CMake Error: CMake can not determine linker language for target: library
 CMake Error: Cannot determine link language for target "CMakeLists".

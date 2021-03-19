@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 /run/media/cytoncode/GIT/C/main.c
-stdio.h
--
 main.h
 /run/media/cytoncode/GIT/C/main.h
 
 /run/media/cytoncode/GIT/C/main.h
+stdio.h
+-
 stdbool.h
 -
 

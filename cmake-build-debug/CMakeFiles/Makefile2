@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/C/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/stdio.dir/all
 all: CMakeFiles/library.dir/all
 all: CMakeFiles/C.dir/all
 all: CMakeFiles/CMakeLists.dir/all
@@ -87,6 +88,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/stdio.dir/clean
 clean: CMakeFiles/library.dir/clean
 clean: CMakeFiles/C.dir/clean
 clean: CMakeFiles/CMakeLists.dir/clean
@@ -94,6 +96,33 @@ clean: CMakeFiles/README.dir/clean
 clean: CMakeFiles/main.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stdio.dir
+
+# All Build rule for target.
+CMakeFiles/stdio.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdio.dir/build.make CMakeFiles/stdio.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdio.dir/build.make CMakeFiles/stdio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles --progress-num= "Built target stdio"
+.PHONY : CMakeFiles/stdio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stdio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stdio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stdio.dir/rule
+
+# Convenience name for target.
+stdio: CMakeFiles/stdio.dir/rule
+
+.PHONY : stdio
+
+# clean rule for target.
+CMakeFiles/stdio.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stdio.dir/build.make CMakeFiles/stdio.dir/clean
+.PHONY : CMakeFiles/stdio.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/library.dir

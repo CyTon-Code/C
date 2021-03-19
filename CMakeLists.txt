@@ -11,3 +11,5 @@ add_executable(CMakeLists CMakeLists.txt)
 
 add_executable(main main.c)
 add_executable(library bool/library.h)
+
+add_executable(stdio /usr/include/stdio.h)

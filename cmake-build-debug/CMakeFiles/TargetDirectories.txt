@@ -1,4 +1,5 @@
 /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles/stdio.dir
 /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles/library.dir
 /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles/C.dir
