@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "line_search/library.c"
+#include "bool/library.c"
 
 #define false  (char) 0
 #define true  (char) 1
