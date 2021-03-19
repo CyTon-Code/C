@@ -4,5 +4,8 @@
 
 #ifndef C_MAIN_H
 #define C_MAIN_H
+
+#include <stdio.h>
 #include <stdbool.h>
+
 #endif //C_MAIN_H
