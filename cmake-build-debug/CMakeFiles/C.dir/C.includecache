@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/run/media/cytoncode/GIT/C/line_search/library.c
+library.h
+/run/media/cytoncode/GIT/C/line_search/library.h
+stdio.h
+-
+
+/run/media/cytoncode/GIT/C/line_search/library.h
+
 /run/media/cytoncode/GIT/C/main.c
 stdio.h
 -
+line_search/library.c
+/run/media/cytoncode/GIT/C/line_search/library.c
 
