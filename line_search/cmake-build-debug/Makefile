@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named library
+
+# Build rule for target.
+library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library
+.PHONY : library
+
+# fast build rule for target.
+library/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/build
+.PHONY : library/fast
+
+#=============================================================================
 # Target rules for targets named line_search
 
 # Build rule for target.
@@ -149,6 +162,7 @@ library.o: library.c.o
 
 # target to build an object file
 library.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/library.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_search.dir/build.make CMakeFiles/line_search.dir/library.c.o
 .PHONY : library.c.o
 
@@ -158,6 +172,7 @@ library.i: library.c.i
 
 # target to preprocess a source file
 library.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/library.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_search.dir/build.make CMakeFiles/line_search.dir/library.c.i
 .PHONY : library.c.i
 
@@ -167,6 +182,7 @@ library.s: library.c.s
 
 # target to generate assembly for a file
 library.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/library.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_search.dir/build.make CMakeFiles/line_search.dir/library.c.s
 .PHONY : library.c.s
 
@@ -178,6 +194,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... library"
 	@echo "... line_search"
 	@echo "... library.o"
 	@echo "... library.i"
