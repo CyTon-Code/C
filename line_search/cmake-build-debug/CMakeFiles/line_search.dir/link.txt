@@ -1,0 +1,2 @@
+/usr/bin/ar qc libline_search.a  CMakeFiles/line_search.dir/library.c.o
+/usr/bin/ranlib libline_search.a
