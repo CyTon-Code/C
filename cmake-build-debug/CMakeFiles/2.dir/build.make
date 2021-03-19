@@ -69,19 +69,19 @@ CMAKE_SOURCE_DIR = /run/media/cytoncode/GIT/C
 CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/C/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/library.dir/depend.make
+include CMakeFiles/2.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/library.dir/progress.make
+include CMakeFiles/2.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/library.dir/flags.make
+include CMakeFiles/2.dir/flags.make
 
-CMakeFiles/library.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/library.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/library.dir/clean
+CMakeFiles/2.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/2.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/2.dir/clean
 
-CMakeFiles/library.dir/depend:
-	cd /run/media/cytoncode/GIT/C/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /run/media/cytoncode/GIT/C /run/media/cytoncode/GIT/C /run/media/cytoncode/GIT/C/cmake-build-debug /run/media/cytoncode/GIT/C/cmake-build-debug /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles/library.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/library.dir/depend
+CMakeFiles/2.dir/depend:
+	cd /run/media/cytoncode/GIT/C/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /run/media/cytoncode/GIT/C /run/media/cytoncode/GIT/C /run/media/cytoncode/GIT/C/cmake-build-debug /run/media/cytoncode/GIT/C/cmake-build-debug /run/media/cytoncode/GIT/C/cmake-build-debug/CMakeFiles/2.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/2.dir/depend
 

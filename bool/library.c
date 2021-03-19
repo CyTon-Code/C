@@ -1,6 +1,12 @@
 #include "library.h"
 
-//#include <stdio.h>
+#ifndef stdio_h
+#define stdio_h
+
+#include <stdio.h>
+
+#endif // stdio_h
+
 void convert_test() {
-    bool(int, 1 + 1);
+    printf("%d\n", bool(char, 1).flag);
 }

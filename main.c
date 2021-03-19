@@ -1,9 +1,13 @@
+#ifndef stdio_h
+#define stdio_h
+
 #include <stdio.h>
+
+#endif // stdio_h
+
 #include "line_search/library.c"
 #include "bool/library.c"
 
-#define false  (char) 0
-#define true  (char) 1
 
 struct List {
     int length;
@@ -12,7 +16,7 @@ struct List {
     int (*search_line)(int n, const int a[], int key); // функция поиска элемента.
 };
 
-char check(void) {
+boolean_type check(void) {
 //    printf("Hello, World!\n");
 
     int key = 2, n = 4;
@@ -30,5 +34,6 @@ char check(void) {
 }
 
 int main() {
+    convert_test();
     return 0;
 }

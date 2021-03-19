@@ -2,7 +2,8 @@
 #define BOOL_LIBRARY_H
 
 #define bool(typ, var) convert_ ## typ ## _to_boolean_type(var)
-
+#define false  bool(char, 0)
+#define true  bool(char, 1)
 
 int str_len(const char *text);
 

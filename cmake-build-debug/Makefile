@@ -131,19 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named library
-
-# Build rule for target.
-library: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library
-.PHONY : library
-
-# fast build rule for target.
-library/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/build
-.PHONY : library/fast
-
-#=============================================================================
 # Target rules for targets named C
 
 # Build rule for target.
@@ -155,19 +142,6 @@ C : cmake_check_build_system
 C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
 .PHONY : C/fast
-
-#=============================================================================
-# Target rules for targets named CMakeLists
-
-# Build rule for target.
-CMakeLists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
-.PHONY : CMakeLists
-
-# fast build rule for target.
-CMakeLists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
-.PHONY : CMakeLists/fast
 
 #=============================================================================
 # Target rules for targets named README
@@ -183,44 +157,17 @@ README/fast:
 .PHONY : README/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named CMakeLists
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+CMakeLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
+.PHONY : CMakeLists
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-line_search/library.o: line_search/library.c.o
-
-.PHONY : line_search/library.o
-
-# target to build an object file
-line_search/library.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/line_search/library.c.o
-.PHONY : line_search/library.c.o
-
-line_search/library.i: line_search/library.c.i
-
-.PHONY : line_search/library.i
-
-# target to preprocess a source file
-line_search/library.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/line_search/library.c.i
-.PHONY : line_search/library.c.i
-
-line_search/library.s: line_search/library.c.s
-
-.PHONY : line_search/library.s
-
-# target to generate assembly for a file
-line_search/library.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/line_search/library.c.s
-.PHONY : line_search/library.c.s
+CMakeLists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+.PHONY : CMakeLists/fast
 
 main.o: main.c.o
 
@@ -229,7 +176,6 @@ main.o: main.c.o
 # target to build an object file
 main.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/main.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -239,7 +185,6 @@ main.i: main.c.i
 # target to preprocess a source file
 main.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/main.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -249,7 +194,6 @@ main.s: main.c.s
 # target to generate assembly for a file
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/main.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -263,11 +207,6 @@ help:
 	@echo "... C"
 	@echo "... CMakeLists"
 	@echo "... README"
-	@echo "... library"
-	@echo "... main"
-	@echo "... line_search/library.o"
-	@echo "... line_search/library.i"
-	@echo "... line_search/library.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

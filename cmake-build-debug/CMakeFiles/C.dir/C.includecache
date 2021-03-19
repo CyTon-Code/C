@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/run/media/cytoncode/GIT/C/bool/library.c
+library.h
+/run/media/cytoncode/GIT/C/bool/library.h
+stdio.h
+-
+
 /run/media/cytoncode/GIT/C/line_search/library.c
 library.h
 /run/media/cytoncode/GIT/C/line_search/library.h
@@ -19,4 +25,6 @@ stdio.h
 -
 line_search/library.c
 /run/media/cytoncode/GIT/C/line_search/library.c
+bool/library.c
+/run/media/cytoncode/GIT/C/bool/library.c
 
