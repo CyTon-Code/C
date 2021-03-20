@@ -1,2 +1,2 @@
 # C
-learning C language. Ужгородський національний університет (uzhnu).
+Learning C language. Ужгородский національний університет (uzhnu).

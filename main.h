@@ -7,8 +7,10 @@
 
 #define string char *
 #define String  const char *
+
 #define _if(term) if(term + 0)
 #define _elif(term) else if(term)
+
 #define elif else if
 
 #include <stdio.h>
